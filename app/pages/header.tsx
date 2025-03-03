@@ -14,7 +14,7 @@ export default function Header() {
     ]
     return (
         <header className="flex w-full justify-center ">
-            <nav className="wrapper w-full flex justify-between items-center py-3 px-3 max-w-[1200px]">
+            <nav className="wrapper w-full flex justify-between items-center py-3 md:py-5 px-3 max-w-[1200px]">
                 <section>
                     <h1 className="font-[400] md:text-2xl">Higaurav</h1>
                 </section>
