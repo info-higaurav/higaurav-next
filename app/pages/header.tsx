@@ -13,7 +13,7 @@ export default function Header() {
         {path:"#", label:"Contact"}
     ]
     return (
-        <header className="flex w-full justify-center ">
+        <header className="flex w-full justify-center " role="banner">
             <nav className="wrapper w-full flex justify-between items-center py-3 md:py-5 px-3 max-w-[1200px]">
                 <section>
                     <h1 className="font-[400] md:text-2xl">Higaurav</h1>
